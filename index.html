@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PrimeLogic — IT consulting and algorithmic trading. We build resilient systems and data-driven trading strategies that perform." />
+  <title>PrimeLogic — IT Consulting & Algorithmic Trading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="PrimeLogic home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <path d="M4 22 L11 13 L17 18 L28 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="28" cy="6" r="2.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="logo-text">Prime<strong>Logic</strong></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="eyebrow">IT Consulting · Algorithmic Trading</span>
+          <h1>Engineering precision for technology and markets.</h1>
+          <p class="lead">
+            PrimeLogic builds resilient software systems and data-driven trading
+            strategies. We help businesses modernize their technology and turn
+            market data into measurable performance.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start a conversation</a>
+            <a href="#services" class="btn btn-ghost">Explore services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Years of expertise</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">99.9%</span>
+              <span class="stat-label">System uptime</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">24/7</span>
+              <span class="stat-label">Market monitoring</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="chart-card">
+            <div class="chart-card-head">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="chart-title">Strategy · Live</span>
+            </div>
+            <svg class="chart" viewBox="0 0 400 220" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#3aa0ff" stop-opacity="0.28"/>
+                  <stop offset="100%" stop-color="#3aa0ff" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <line x1="0" y1="55" x2="400" y2="55" class="grid"/>
+              <line x1="0" y1="110" x2="400" y2="110" class="grid"/>
+              <line x1="0" y1="165" x2="400" y2="165" class="grid"/>
+              <path class="area" d="M0,180 L40,165 L80,172 L120,140 L160,150 L200,110 L240,120 L280,80 L320,92 L360,48 L400,30 L400,220 L0,220 Z" fill="url(#fill)"/>
+              <path class="line" d="M0,180 L40,165 L80,172 L120,140 L160,150 L200,110 L240,120 L280,80 L320,92 L360,48 L400,30"/>
+              <circle class="pulse" cx="400" cy="30" r="5"/>
+            </svg>
+            <div class="chart-foot">
+              <div><span class="muted">YTD Return</span><strong class="pos">+24.7%</strong></div>
+              <div><span class="muted">Sharpe</span><strong>2.1</strong></div>
+              <div><span class="muted">Max DD</span><strong>-6.3%</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust bar -->
+    <section class="trustbar">
+      <div class="container">
+        <p class="trust-label">Trusted across finance, technology, and enterprise</p>
+        <div class="trust-logos">
+          <span>FinTech</span>
+          <span>Hedge Funds</span>
+          <span>Enterprise IT</span>
+          <span>Proprietary Trading</span>
+          <span>SaaS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What we do</span>
+          <h2>Two disciplines, one standard of excellence.</h2>
+          <p>From infrastructure to alpha, we apply the same rigor — clean architecture, sound data, and measurable outcomes.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>
+              </svg>
+            </div>
+            <h3>IT Consulting</h3>
+            <p>Strategic technology guidance that turns complexity into clarity — from cloud architecture to digital transformation.</p>
+            <ul class="card-list">
+              <li>Cloud &amp; infrastructure architecture</li>
+              <li>Software engineering &amp; modernization</li>
+              <li>Data platforms &amp; analytics</li>
+              <li>Security &amp; DevOps automation</li>
+            </ul>
+          </article>
+
+          <article class="card card-featured">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 17l5-6 4 3 5-7"/><path d="M17 7h4v4"/><path d="M3 21h18"/>
+              </svg>
+            </div>
+            <h3>Algorithmic Trading</h3>
+            <p>Quantitative strategies engineered for performance — backed by research, rigorous testing, and low-latency execution.</p>
+            <ul class="card-list">
+              <li>Strategy research &amp; backtesting</li>
+              <li>Low-latency execution systems</li>
+              <li>Risk management frameworks</li>
+              <li>Market data pipelines</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><path d="M16 2l4 4-4 4"/>
+              </svg>
+            </div>
+            <h3>Quant Engineering</h3>
+            <p>The bridge between research and production — robust, observable systems that run your models reliably at scale.</p>
+            <ul class="card-list">
+              <li>Trading infrastructure design</li>
+              <li>Real-time data &amp; monitoring</li>
+              <li>Model deployment &amp; ops</li>
+              <li>Performance optimization</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section class="approach" id="approach">
+      <div class="container approach-inner">
+        <div class="approach-text">
+          <span class="eyebrow">Our approach</span>
+          <h2>Disciplined process. Measurable results.</h2>
+          <p>We treat every engagement like a system to be engineered — understood deeply, built carefully, and validated with data.</p>
+          <a href="#contact" class="btn btn-primary">Work with us</a>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">01</span>
+            <div>
+              <h4>Discover</h4>
+              <p>We map your goals, constraints, and data before writing a single line of code.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">02</span>
+            <div>
+              <h4>Design</h4>
+              <p>Clean, scalable architecture and strategies grounded in evidence, not guesswork.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">03</span>
+            <div>
+              <h4>Build</h4>
+              <p>Production-grade systems delivered iteratively, with quality checked at every step.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">04</span>
+            <div>
+              <h4>Optimize</h4>
+              <p>Continuous monitoring and refinement to keep performance ahead of the curve.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-visual" aria-hidden="true">
+          <div class="metric-grid">
+            <div class="metric"><span class="metric-num">50+</span><span class="metric-label">Projects delivered</span></div>
+            <div class="metric"><span class="metric-num">15+</span><span class="metric-label">Trading strategies</span></div>
+            <div class="metric"><span class="metric-num">12</span><span class="metric-label">Industries served</span></div>
+            <div class="metric"><span class="metric-num">100%</span><span class="metric-label">Client-first focus</span></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="eyebrow">Who we are</span>
+          <h2>Where engineering meets the markets.</h2>
+          <p>
+            PrimeLogic is a team of engineers, quants, and consultants who believe
+            great technology and smart trading share the same foundation: logic,
+            data, and discipline.
+          </p>
+          <p>
+            We partner with companies that want more than code — they want systems
+            that last and strategies that perform. Whether you're modernizing your
+            stack or building a trading desk, we bring the same clear thinking to
+            every challenge.
+          </p>
+          <ul class="check-list">
+            <li>Senior, hands-on team — no handoffs</li>
+            <li>Transparent, data-backed decisions</li>
+            <li>Built for reliability and scale</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="cta" id="contact">
+      <div class="container cta-inner">
+        <div class="cta-text">
+          <span class="eyebrow light">Let's talk</span>
+          <h2>Ready to build something that performs?</h2>
+          <p>Tell us about your project or your trading ambitions. We'll get back to you within one business day.</p>
+          <ul class="contact-points">
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+              hello@primelogic.co.th
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +66 (0) 2 000 0000
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Bangkok, Thailand
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+          <div class="field">
+            <label for="topic">I'm interested in</label>
+            <select id="topic" name="topic">
+              <option>IT Consulting</option>
+              <option>Algorithmic Trading</option>
+              <option>Quant Engineering</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about what you need…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form-note" id="formNote" hidden>Thanks — we'll be in touch shortly.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="24" height="24" fill="none">
+              <path d="M4 22 L11 13 L17 18 L28 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="28" cy="6" r="2.5" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="logo-text">Prime<strong>Logic</strong></span>
+        </a>
+        <p>Engineering precision for technology and markets.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Services</h5>
+          <a href="#services">IT Consulting</a>
+          <a href="#services">Algorithmic Trading</a>
+          <a href="#services">Quant Engineering</a>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <a href="#about">About</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <a href="mailto:hello@primelogic.co.th">hello@primelogic.co.th</a>
+          <a href="#contact">Bangkok, Thailand</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> PrimeLogic Co., Ltd. All rights reserved.</span>
+      <span class="footer-legal"><a href="#">Privacy</a> · <a href="#">Terms</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
